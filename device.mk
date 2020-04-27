@@ -148,7 +148,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     libxml2 \
-    GoogleCameraGo \
     vendor.qti.hardware.camera.device@1.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -321,6 +320,12 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
 
+# Packages
+PRODUCT_PACKAGES += \
+    SimpleGalleryPro \
+    GoogleCameraGo \
+    RetroMusic
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor
@@ -449,7 +454,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    Retro
