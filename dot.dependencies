@@ -1,14 +1,14 @@
 [
   {
-    "repository": "android_vendor_xiaomi_violet",
+    "repository": "vendor_xiaomi_violet",
     "target_path": "vendor/xiaomi/violet",
-    "branch": "eleven",
-    "remote": "dotOS-Devices"
+    "branch": "dot11",
+    "remote": "dotos-devices-gitlab"
   },
   {
-    "repository": "android_kernel_xiaomi_violet",
+    "repository": "kernel_xiaomi_violet",
     "target_path": "kernel/xiaomi/violet",
-    "branch": "eleven",
+    "branch": "dot11",
     "remote": "dotOS-Devices"
   }
 ]
