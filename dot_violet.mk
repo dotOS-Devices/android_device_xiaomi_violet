@@ -21,7 +21,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Face unlock
-TARGET_USES_FACE_UNLOCK := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_violet
