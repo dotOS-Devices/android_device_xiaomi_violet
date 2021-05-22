@@ -11,9 +11,6 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
-# Official
-DOT_OFFICIAL := true
-
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
