@@ -10,5 +10,23 @@
     "target_path": "kernel/xiaomi/violet",
     "branch": "dot11",
     "remote": "dotOS-Devices"
+  },
+  {
+     "repository":"SuperiorOS/android_hardware_qcom_display",
+     "target_path":"hardware/qcom-caf/sm8150-violet/display",
+     "branch":"eleven-caf-sm8150",
+     "remote":"github"
+  },
+  {
+     "repository":"SuperiorOS/android_hardware_qcom_audio",
+     "target_path":"hardware/qcom-caf/sm8150-violet/audio",
+     "branch":"eleven-caf-sm8150",
+     "remote":"github"
+  },
+  {
+     "repository":"SuperiorOS/android_hardware_qcom_media",
+     "target_path":"hardware/qcom-caf/sm8150-violet/media",
+     "branch":"eleven-caf-sm8150",
+     "remote":"github"
   }
 ]
