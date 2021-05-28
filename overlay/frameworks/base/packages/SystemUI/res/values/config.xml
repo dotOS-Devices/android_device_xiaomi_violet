@@ -23,6 +23,11 @@
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
 
+    <!-- Set to false for middle camera cutout devices 
+         If the result doesn't satisfy you, play with 
+         quick_qs_offset_height and quick_qs_total_height -->
+    <bool name="qs_enable_cutout_space">false</bool>
+
     <!-- Tiles to auto add to Quick Settings upon first change of a given secure setting.
          The syntax is setting-name:spec. If the tile is a TileService, the spec should be specified
          as custom(package/class). Relative class name is supported. -->
