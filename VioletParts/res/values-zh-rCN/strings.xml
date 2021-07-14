@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Asus-SDM660 Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="advanced_settings">红米 Note 7 Pro 选项</string>
+    <string name="advanced_settings_summary">设备特殊定制选项</string>
+
+    <string name="display_title">显示</string>
+
+    <!-- KCal -->
+    <string name="device_kcal_title">显示颜色校准</string>
+    <string name="kcal_enabled_summary">使用 KCAL 校准显示颜色</string>
+
+    <!-- kcal -->
+    <string name="advanced_settings_kcal">显示颜色校准</string>
+    <string name="cat_colormanagement">颜色设置</string>
+    <string name="cat_calibration">显示校准</string>
+
+    <string name="kcal_enabled">开启</string>
+    <string name="kcal_disabled">关闭</string>
+    <string name="set_on_boot">启动时设置</string>
+    <string name="color_red">红</string>
+    <string name="color_green">绿</string>
+    <string name="color_blue">蓝</string>
+    <string name="color_minimum">最低</string>
+    <string name="saturation">饱和度</string>
+    <string name="value">值</string>
+    <string name="contrast">对比度</string>
+    <string name="hue">色调</string>
+    <string name="grayscale">灰度显示</string>
+
+    <string name="presets_dialog_title">选择预设配置</string>
+    <!-- Presets -->
+    <string name="preset_default">默认</string>
+    <string name="preset_version_1">版本 1</string>
+    <string name="preset_version_2">Version 2</string>
+    <string name="preset_version_3">Version 3</string>
+    <string name="preset_triluminous">Triluminous</string>
+    <string name="preset_deep_black_white">Deep Black and White</string>
+    <string name="preset_deep_natural">Deep Natural</string>
+    <string name="preset_cool_amoled">Cool Amoled</string>
+    <string name="preset_extreme_amoled">Extreme Amoled</string>
+    <string name="preset_warm_amoled">Warm Amoled</string>
+    <string name="preset_hybrid_mamba">Hybrid Mamba</string>
+    <string name="preset_sir_banger">Sir Banger</string>
+    <string name="preset_gerard_extrem_cool">Gerard Extreme Cool</string>
+    <string name="preset_yoyoz808">Yoyoz808</string>
+    <string name="preset_purian">Purian</string>
+    <string name="preset_deep_black_colorful">Deep Black Colorful</string>
+    <string name="preset_vomer_deep_rich">Vomer Deep Rich</string>
+    <string name="preset_franco">Franco</string>
+    <string name="preset_wrinklefree_cool">WrinkleFree Cool</string>
+    <string name="preset_harley_tech">Harley-Tech</string>
+    <string name="preset_perfection">Perfection</string>
+    <string name="preset_banged_up">Banged up</string>
+    <string name="preset_sim_cooler">SimCooler</string>
+    <string name="preset_obsanity">Obsanity</string>
+    <string name="preset_obsanity_ips">Obsanity IPS</string>
+
+    <!-- USB fastcharge -->
+    <string name="usb_fastcharge_title">USB 快充</string>
+    <string name="fastcharge_title">启用 USB 快充</string>
+    <string name="fastcharge_summary">通过 USB 3.0 端口与电脑连接时充电量可达900mA</string>
+
+    <!-- menu -->
+    <string name="kcal_presets" translatable="false">@string/presets_dialog_title</string>
+    <string name="kcal_reset">重置</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">值：<xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值：<xliff:g id="v">%s</xliff:g>\n长按以重置</string>
+    <string name="custom_seekbar_default_value_is_set">默认值已设置</string>
+
+    <!-- Log Tile -->
+    <string name="quick_settings_log_tile_label">LogTile</string>
+    <string name="quick_settings_log_tile_dialog_title">选项</string>
+    <string name="cannot_get_su">执行失败！缺少超级用户权限。</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_category">安全增强式 Linux（SELinux）</string>
+    <string name="selinux_explanation_summary">安全增强式 Linux （SELinux）是一套内核修改和用户空间工具。改变模式可能会发生不可预料的后果。使用时请自行承担风险。</string>
+    <string name="selinux_mode_title">SELinux 模式</string>
+    <string name="selinux_permissive_summary">允许模式</string>
+    <string name="selinux_enforcing_summary">强制模式</string>
+    <string name="selinux_persistence_title">重启时恢复</string>
+    <string name="selinux_persistence_summary">开机时恢复上述设置的 SELinux 模式</string>
+    <string name="selinux_permissive_toast_title">SELinux 模式已设置为允许模式！</string>
+    <string name="selinux_enforcing_toast_title">SELinux 模式已设置为强制模式！</string>
+
+    <string name="audio_title">音频</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">米音</string>
+    <string name="dirac_summary">使用米音调整音质</string>
+    <string name="dirac_headset_title">选择耳机类型</string>
+    <string name="dirac_preset_title">选择预设</string>
+
+    <!-- Dirac settings: Headset types -->
+    <string name="dirac_headset_default">默认</string>
+    <string name="dirac_headset_earbuds">灵动耳塞式</string>
+    <string name="dirac_headset_in_ear_2013">灵悦入耳式</string>
+    <string name="dirac_headset_piston_1">小米活塞1</string>
+    <string name="dirac_headset_general">通用耳塞式</string>
+    <string name="dirac_headset_general_inear">通用入耳式</string>
+    <string name="dirac_headset_piston_basic">小米活塞简装版</string>
+    <string name="dirac_headset_piston_2">小米活塞2</string>
+    <string name="dirac_headset_piston_standard">小米活塞标准版</string>
+    <string name="dirac_headset_headphone">小米头戴式</string>
+    <string name="dirac_headset_piston_youth">小米活塞青春版</string>
+    <string name="dirac_headset_piston_color">小米活塞炫彩版</string>
+    <string name="dirac_headset_in_ear">小米圈铁</string>
+    <string name="dirac_headset_capsule">小米胶囊</string>
+    <string name="dirac_headset_in_ear_pro">小米圈铁Pro</string>
+    <string name="dirac_headset_comfort">小米头戴轻松版</string>
+    <string name="dirac_headset_reduction_noise">小米降噪 typeC</string>
+    <string name="dirac_headset_cancelling">小米降噪 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">小米半入耳式</string>
+    <string name="dirac_headset_in_ear2">小米圈铁2</string>
+    <string name="dirac_headset_earphone_basic">小米耳机基本款</string>
+    <string name="dirac_headset_earphone">小米耳机</string>
+
+    <!-- Dirac settings: Equalizer presets -->
+    <string name="dirac_preset_default">无</string>
+    <string name="dirac_preset_rock">摇滚</string>
+    <string name="dirac_preset_jazz">爵士</string>
+    <string name="dirac_preset_pop">流行</string>
+    <string name="dirac_preset_classical">古典</string>
+    <string name="dirac_preset_hiphop">嘻哈</string>
+    <string name="dirac_preset_blues">布鲁斯</string>
+    <string name="dirac_preset_electronic">电子音乐</string>
+    <string name="dirac_preset_country">乡村</string>
+    <string name="dirac_preset_dance">舞曲</string>
+    <string name="dirac_preset_metal">金属</string>
+    <string name="dirac_preset_bass_booster">低音增强</string>
+    
+    <!-- FPS Info -->
+    <string name="fps_info_title">FPS 信息显示</string>
+    <string name="fps_info_summary">显示当前屏幕每秒帧率</string>
+
+    <!-- Vibration -->
+    <string name="vibration_title">振动控制</string>
+    <string name="vibration_strength_title">强度</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">选择新值</string>
+    <string name="default_value">默认值</string>
+    <string name="edit_hint">需填写 %1$d 至 %2$d 间的值</string>
+
+    <!-- Torch Brightness -->
+    <string name="torch_title">手电筒</string>
+    <string name="torch_brightness_title">亮度</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_xiaomi">小米休眠</string>
+    <string name="advanced_doze_summary">环境显示</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">温度控制</string>
+    <string name="thermal_summary">调整各个应用程序的温度控制</string>
+
+    <!-- Speaker -->
+    <string name="speaker_category">扬声器</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">清理扬声器</string>
+    <string name="clear_speaker_summary">播放一段 30 秒的音频来清理扬声器</string>
+    <string name="clear_speaker_description">如果您发现您的扬声器有轻度灰尘阻挡，请运行此功能 1-2 次。使用该功能需要将媒体音量设置为最大。\n\n如果扬声器被严重堵塞，请运行该功能 2-5 次，同时将扬声器朝下摇晃设备。</string>
+
+</resources>
